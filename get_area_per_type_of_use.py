@@ -141,7 +141,7 @@ mapping = {
 "Parkhaus WISTA": "Parkhaus",
 "Pylon Porsche": "Einzelhandel",
 "Speichergebäude": "Lagerhalle",
-"Sprinkleranlage": "Parkhaus",  # Parkhaus, da allein vergleichsweise geringer Strombedarf
+"Sprinkleranlage": "Sonstiges",  # Finetuning in nPRo: nur Strombedarf
 "Tank": "Lagerhalle",
 "Tiefgarage": "Parkhaus",
 "Trafo, Lagerthalle": "Lagerhalle",
@@ -149,7 +149,7 @@ mapping = {
 "Umformerstation": "Rechenzentrum",
 "Umspannwerk": "Rechenzentrum",
 "Verwaltungsgebäude": "Büro",
-"Wasserturm": "Lagerhalle",
+"Wasserturm": "Sonstiges",  # Finetuning in nPRo: nur Strombedarf
 "Werkstatt": "Produktion",
 "Wirtschafts- oder Industriegebäude (allgemein)": "Produktion",
 "Wohnhaus (allgemein)": "Hotel"
