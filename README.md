@@ -7,8 +7,9 @@ This repo creates:
 2. It allocates geodata to all companies (Adresses): `get_company_geo_data.py`
 3. It assignes to every company a cluster by Branchenzweig: `assign_company_to_cluster.py`
 4. It preprocesses the data to be used for nominatim geocoder: `preprocess_companies.py`
-5. It gives area, type of use and units for nPro from processed and geocoded data: `get_area_per_type_of_use.py`
-6. It appends area, type of use and units of cluster "Parkhaus" since it only exists in seperate data "Gebäudegrunddatensatz"
+5. It updates the clusters because, after processing the geodata, a different cluster assignment proved to be more robust. To avoid having to recreate the geodata, which would be time-consuming, this script is used to adjust it: `modify_cluster.py`
+6. It gives area, type of use and units for nPro from processed and geocoded data: `get_area_per_type_of_use.py`
+7. It appends area, type of use and units of cluster "Parkhaus" since it only exists in seperate data "Gebäudegrunddatensatz"
 
 raw_data
 ========
